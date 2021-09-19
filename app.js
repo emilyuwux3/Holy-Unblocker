@@ -111,7 +111,7 @@ function tryReadFile(file) {
 // Local Corrosion Proxy
 
 const proxy = new corrosion({
-    prefix: '/search/',
+    prefix: '/web/',
     title: 'Untitled Document',
     ws: true,
     codec: 'xor',
